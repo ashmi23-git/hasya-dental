@@ -1,0 +1,479 @@
+/* =========================================
+   HASYA DENTAL STUDIO — Contact Page (contact.html)
+========================================= */
+
+/* =========================================================
+   CONTACT PAGE
+========================================================= */
+
+/* ---------- Contact Intro ---------- */
+
+.contact-intro {
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+.contact-intro-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.contact-intro-label {
+    padding-top: 18px;
+}
+
+.contact-intro-location {
+    margin-top: 70px;
+    font-size: 14px;
+    color: #777b76;
+}
+
+.contact-intro-content {
+    max-width: 820px;
+}
+
+.contact-intro-content h1 {
+    font-size: clamp(54px, 7vw, 92px);
+    letter-spacing: -2px;
+}
+
+.contact-intro-content h1 em {
+    color: #777b76;
+    font-style: italic;
+}
+
+.contact-lead {
+    max-width: 620px;
+    margin-top: 35px;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+
+/* ---------- Contact Details ---------- */
+
+.contact-details {
+    background-color: var(--white);
+}
+
+.contact-details-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    gap: 100px;
+    align-items: start;
+}
+
+.contact-detail-heading {
+    max-width: 620px;
+    margin-bottom: 70px;
+}
+
+.contact-detail-heading h2 {
+    max-width: 560px;
+}
+
+.contact-detail-list {
+    border-top: 1px solid var(--border);
+}
+
+.contact-detail-item {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 25px;
+    padding: 38px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.contact-detail-number {
+    font-family: var(--heading-font);
+    font-size: 18px;
+    color: #92968f;
+}
+
+.contact-label {
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color: #777b76;
+}
+
+.contact-detail-item h3 {
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.contact-detail-item p:not(.contact-label) {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* ---------- Contact Sidebar ---------- */
+
+.contact-side {
+    position: sticky;
+    top: 120px;
+}
+
+.contact-hours {
+    padding: 35px;
+    background-color: var(--ivory);
+    border: 1px solid var(--border);
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+}
+
+.hours-row:last-child {
+    border-bottom: none;
+}
+
+.hours-row strong {
+    font-weight: 600;
+}
+
+.hours-row.closed {
+    color: #8b8d88;
+}
+
+.contact-note {
+    margin-top: 20px;
+    padding: 35px;
+    background-color: var(--sage);
+}
+
+.contact-note h3 {
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+.contact-note p:not(.eyebrow) {
+    margin-bottom: 25px;
+    color: #3f453f;
+    font-size: 15px;
+}
+
+
+/* ---------- Location ---------- */
+
+/* ---------- Visiting HASYA ---------- */
+
+.contact-location {
+    background-color: var(--ivory);
+}
+
+.visiting-heading {
+    max-width: 750px;
+    margin-bottom: 60px;
+}
+
+.visiting-heading h2 {
+    font-size: clamp(45px, 5vw, 68px);
+}
+
+.visiting-heading h2 em {
+    font-style: italic;
+    color: #777b76;
+}
+
+.visiting-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.visiting-info-grid .location-info-block {
+    padding: 35px 30px;
+    min-height: 210px;
+    border-right: 1px solid var(--border);
+}
+
+.visiting-info-grid .location-info-block:first-child {
+    border-left: 1px solid var(--border);
+}
+
+.location-info-block p:last-child {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.location-link {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+/* ---------- Contact Message ---------- */
+
+.contact-message {
+    background-color: var(--white);
+}
+
+.contact-message-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 110px;
+    align-items: start;
+}
+
+.message-intro {
+    position: sticky;
+    top: 120px;
+}
+
+.message-intro h2 {
+    margin-bottom: 25px;
+}
+
+.message-intro > p:last-child {
+    max-width: 430px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.message-form-wrapper {
+    padding: 45px;
+    border: 1px solid var(--border);
+    background-color: var(--ivory);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.contact-form label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px 16px;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    color: var(--charcoal);
+    outline: none;
+    border-radius: 0;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: var(--charcoal);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999c97;
+}
+
+.contact-form-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 5px;
+}
+
+.contact-form-footer p {
+    max-width: 280px;
+    font-size: 12px;
+    color: #777b76;
+}
+
+
+/* ---------- Contact FAQ ---------- */
+
+.contact-faq {
+    background-color: var(--ivory);
+}
+
+.contact-faq-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 110px;
+    align-items: start;
+}
+
+.contact-faq-list {
+    border-top: 1px solid var(--border);
+}
+
+.contact-faq-list details {
+    border-bottom: 1px solid var(--border);
+}
+
+.contact-faq-list summary {
+    position: relative;
+    padding: 25px 40px 25px 0;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--heading-font);
+    font-size: 22px;
+}
+
+.contact-faq-list summary::-webkit-details-marker {
+    display: none;
+}
+
+.contact-faq-list summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777b76;
+}
+
+.contact-faq-list details[open] summary::after {
+    content: "−";
+}
+
+.contact-faq-list details p {
+    max-width: 650px;
+    padding: 0 40px 28px 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* ---------- Contact Final CTA ---------- */
+
+.contact-final {
+    background-color: var(--charcoal);
+    color: var(--white);
+}
+
+.contact-final-content {
+    max-width: 850px;
+}
+
+.contact-final-content .eyebrow {
+    color: #bfc3bd;
+}
+
+.contact-final-content h2 {
+    color: var(--white);
+    font-size: clamp(48px, 6vw, 78px);
+}
+
+.contact-final-content h2 em {
+    color: var(--peach);
+    font-style: italic;
+}
+
+.contact-final-content > p:not(.eyebrow) {
+    max-width: 500px;
+    margin-top: 25px;
+    color: #c8ccc6;
+    font-size: 17px;
+}
+
+.contact-final-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 35px;
+}
+
+.button-outline-light {
+    border: 1px solid #858a84;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.button-outline-light:hover {
+    background-color: var(--white);
+    color: var(--charcoal);
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+/* ---------- Visiting HASYA - Responsive ---------- */
+
+@media (max-width: 850px) {
+
+    .visiting-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .visiting-info-grid .location-info-block,
+    .visiting-info-grid .location-info-block:first-child {
+        border-left: 1px solid var(--border);
+        border-right: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+
+    .visiting-info-grid .location-info-block:last-child {
+        border-bottom: none;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .visiting-heading {
+        margin-bottom: 40px;
+    }
+
+    .visiting-heading h2 {
+        font-size: 42px;
+    }
+
+    .visiting-info-grid .location-info-block {
+        padding: 28px 22px;
+        min-height: auto;
+    }
+
+    .location-link {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .visiting-heading h2 {
+        font-size: 38px;
+    }
+
+}
